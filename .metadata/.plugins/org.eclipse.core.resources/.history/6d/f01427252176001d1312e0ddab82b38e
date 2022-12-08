@@ -1,0 +1,13 @@
+package main;
+
+import action.StartState;
+import context.Context;
+
+public class MainMethod {
+	public static void main(String[] args) {
+		Context context = new Context();
+		
+		StartState startState = new StartState();
+		startState.doAction(context);
+	}
+}

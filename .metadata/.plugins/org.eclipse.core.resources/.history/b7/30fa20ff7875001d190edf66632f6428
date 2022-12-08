@@ -1,0 +1,28 @@
+package quanly;
+
+import factory.CarFactory;
+import product.BanhXeHonda;
+import product.Nexus;
+import product.Toyota;
+
+public class Boss {
+	
+//	public void viewHonda(){
+//		Honda honda = new Honda();
+//		honda.view();
+//	}
+//	public void viewNexus(){
+//		Nexus nexus = new Nexus();
+//		nexus.view();
+//	}
+//	public void viewToyota(){
+//		Toyota toyota = new Toyota();
+//		toyota.view();
+//	}
+	// Thay vi lam nhu tren ta co the dung factory de quan ly
+	
+	public void viewCar(String typeCar) {
+		CarFactory carFactory = new CarFactory();
+		carFactory.viewCar(typeCar);
+	}
+}

@@ -1,0 +1,29 @@
+package main;
+
+public class Student {
+	private String id;
+    private String firstName;
+    private String lastName;
+    private String dayOfBirth;
+    private String currentClass;
+    private String phone;
+    
+	public Student(StudentBuilder builder) {
+		this.id = builder.id;
+		this.firstName = builder.firstName;
+		this.lastName = builder.lastName;
+		this.dayOfBirth = builder.dayOfBirth;
+		this.currentClass = builder.currentClass;
+		this.phone = builder.phone;
+	}
+    
+	public static class StudentBuilder{
+		private String id;
+	    private String firstName;
+	    private String lastName;
+	    private String dayOfBirth;
+	    private String currentClass;
+	    private String phone;
+	}
+    
+}

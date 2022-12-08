@@ -1,0 +1,10 @@
+package quanly;
+
+import nhanhang.Honda;
+
+public class Boss {
+	public void viewHonda(){
+		Honda honda = new Honda();
+		honda.view();
+	}
+}

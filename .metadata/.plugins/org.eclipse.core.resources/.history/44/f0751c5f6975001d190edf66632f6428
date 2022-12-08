@@ -1,0 +1,20 @@
+package quanly;
+
+import nhanhang.Honda;
+import nhanhang.Nexus;
+import nhanhang.Toyota;
+
+public class Boss {
+	public void viewHonda(){
+		Honda honda = new Honda();
+		honda.view();
+	}
+	public void viewNexus(){
+		Nexus nexus = new Nexus();
+		nexus.view();
+	}
+	public void viewToyota(){
+		Toyota toyota = new Toyota();
+		toyota.view();
+	}
+}

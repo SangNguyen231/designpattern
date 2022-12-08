@@ -1,0 +1,7 @@
+package leaf;
+
+import component.Department;
+
+public class TesterDepartment implements Department{
+
+}

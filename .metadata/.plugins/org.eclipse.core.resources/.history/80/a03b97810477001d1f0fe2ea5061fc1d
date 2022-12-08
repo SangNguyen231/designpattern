@@ -1,0 +1,19 @@
+package leaf;
+
+import component.Department;
+
+public class TesterDepartment implements Department{
+
+	@Override
+	public void printDepartmentName() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

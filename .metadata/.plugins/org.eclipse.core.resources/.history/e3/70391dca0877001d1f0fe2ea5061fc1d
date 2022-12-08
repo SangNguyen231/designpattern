@@ -1,0 +1,6 @@
+package decorator;
+import component.Coffee;
+
+public class CoffeeDecorator implements Coffee{
+	
+}

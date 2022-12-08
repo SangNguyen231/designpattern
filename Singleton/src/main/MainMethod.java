@@ -1,0 +1,11 @@
+package main;
+
+import singleton.SingleObject;
+
+public class MainMethod {
+	public static void main(String[] args) {
+		SingleObject singleObject = SingleObject.getInstance();
+		
+		singleObject.showMessage();
+	}
+}

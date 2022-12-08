@@ -1,0 +1,7 @@
+package concreatecomponent;
+
+import component.Coffee;
+
+public class DefaultCoffee implements Coffee{
+
+}

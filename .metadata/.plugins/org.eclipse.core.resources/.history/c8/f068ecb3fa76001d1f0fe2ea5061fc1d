@@ -1,0 +1,7 @@
+package adapter;
+
+import target.VietnameseTarget;
+
+public class TranslatorAdapter implements VietnameseTarget{
+
+}

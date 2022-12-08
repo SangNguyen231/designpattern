@@ -1,0 +1,13 @@
+package singleton;
+
+public class SingleObject {
+	
+	private static SingleObject instance;
+	
+	private SingleObject(){}
+	
+	public static SingleObject getInstance() {
+		return instance;
+	}
+	
+}

@@ -1,0 +1,7 @@
+package concreatecomponentb;
+
+import decorator.CoffeeDecorator;
+
+public class IcecreamCoffee extends CoffeeDecorator{
+
+}

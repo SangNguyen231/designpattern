@@ -1,0 +1,26 @@
+package composite;
+
+import java.util.List;
+
+import component.Department;
+
+public class SoftWartDepartment implements Department{
+
+	private int id;
+	private String name;
+	
+	private List<Department> chilDepartments;
+	
+	@Override
+	public void printDepartmentName() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

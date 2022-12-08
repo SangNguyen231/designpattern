@@ -1,0 +1,14 @@
+package banhxe;
+
+public class Snippet {
+	@Override
+		public void getName() {
+			System.out.println("Cua Xe Toyota");
+		}
+	
+		@Override
+		public void getModel() {
+			System.out.println("Model Toyota");
+		}
+}
+

@@ -1,0 +1,19 @@
+package carinterface;
+
+import banhxe.BanhXe;
+import banhxe.BanhXeHonda;
+import banhxe.BanhXeToyota;
+import cuaxe.CuaXe;
+import cuaxe.CuaXeHonda;
+
+public class CarToyota implements Car{
+	@Override
+	public BanhXe createBanhXe() {
+		return new BanhXeToyota();
+	}
+
+	@Override
+	public CuaXe createCuaXe() {
+		return new CuaXeHonda();
+	}
+}

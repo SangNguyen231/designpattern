@@ -1,0 +1,13 @@
+package concreatecomponentb;
+
+import component.Coffee;
+import decorator.CoffeeDecorator;
+
+public class IcecreamCoffee extends CoffeeDecorator{
+
+	public IcecreamCoffee(Coffee coffee) {
+		super(coffee);
+		// TODO Auto-generated constructor stub
+	}
+
+}

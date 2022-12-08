@@ -1,0 +1,16 @@
+package cuaxe;
+
+
+public class CuaXeNexus implements CuaXe{
+
+	@Override
+	public void getName() {
+		System.out.println("Cua Xe Nexus");
+	}
+
+	@Override
+	public void getModel() {
+		System.out.println("Model Nexus");
+	}
+
+}

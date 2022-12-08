@@ -1,0 +1,25 @@
+package main;
+
+import action.StartState;
+import context.Context;
+import state.State;
+
+public class MainMethod {
+	public static void main(String[] args) {
+		Context context = new Context();
+		
+		StartState startState = new StartState();
+		startState.doAction(context);
+	}
+	
+	public void actionState(String typeAction) {
+		Context context = new Context();
+		State state;
+		if(typeAction.equalsIgnoreCase("Start")) {
+			state = new StartState();
+			state.doAction(context);
+		}else if(typeAction.equalsIgnoreCase("Stop")) {
+			
+		}
+	}
+}

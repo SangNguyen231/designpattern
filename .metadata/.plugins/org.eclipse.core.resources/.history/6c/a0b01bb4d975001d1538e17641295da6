@@ -1,0 +1,8 @@
+package car;
+
+public class Nexus implements Car{
+	@Override
+	public void viewCar() {
+		System.out.println("Car Honda");
+	}
+}

@@ -1,0 +1,18 @@
+package carinterface;
+
+import banhxe.BanhXe;
+import cuaxe.CuaXe;
+
+public class CarHonda implements Car{
+
+	@Override
+	public BanhXe createBanhXe() {
+		return new BanhXe();
+	}
+
+	@Override
+	public CuaXe createCuaXe() {
+		return null;
+	}
+
+}

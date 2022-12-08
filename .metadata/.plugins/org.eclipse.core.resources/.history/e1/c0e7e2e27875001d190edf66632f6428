@@ -1,0 +1,21 @@
+package nhanhang;
+
+import carinterface.Car;
+
+public class Honda implements Car{
+
+	@Override
+	public void getName() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getModel() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+}

@@ -1,0 +1,6 @@
+package carinterface;
+
+public interface CuaXe {
+	void getName();
+	void getModel();
+}

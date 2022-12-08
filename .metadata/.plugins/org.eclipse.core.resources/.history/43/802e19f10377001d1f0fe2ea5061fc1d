@@ -1,0 +1,34 @@
+package composite;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import component.Department;
+
+public class SoftWartDepartment implements Department{
+
+	private int id;
+	private String name;
+	
+	private List<Department> chilDepartments;
+	
+	public SoftWartDepartment(int id,String name) {
+		this.id = id;
+		this.name = name;
+		this.chilDepartments = new ArrayList<>();
+	}
+	
+	@Override
+	public void printDepartmentName() {
+		System.out.println("Head" + getName());
+		chilDepartments.forEach(Department::printDepartmentName);
+		
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

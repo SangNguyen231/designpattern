@@ -1,0 +1,6 @@
+package carinterface;
+
+public interface BanhXe {
+	void getName();
+	void getModel();
+}

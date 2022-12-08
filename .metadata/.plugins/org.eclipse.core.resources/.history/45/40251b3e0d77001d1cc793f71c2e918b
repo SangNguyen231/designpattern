@@ -1,0 +1,24 @@
+package singleton;
+
+public final class SingleObject {
+	
+	private static SingleObject instance;
+	
+	public String value;
+	
+	private SingleObject(String value){
+		
+		this.value = value;
+	}
+	
+	public static SingleObject getInstance() {
+		if(instance == null) {
+			instance = new SingleObject(value);
+		}
+		return instance;
+	}
+	
+	public void showMessage() {
+		System.out.println("This is Singleton");
+	}
+}

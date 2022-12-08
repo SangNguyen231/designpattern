@@ -1,0 +1,13 @@
+package concreatecomponent;
+
+import component.Coffee;
+
+public class DefaultCoffee implements Coffee{
+
+	@Override
+	public int getPrice() {
+		// TODO Auto-generated method stub
+		return 5000;
+	}
+
+}

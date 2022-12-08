@@ -1,0 +1,11 @@
+package main;
+
+import quanly.Boss;
+
+public class MainMethod {
+
+	public static void main(String[] args) {
+		Boss boss = new Boss();
+	}
+
+}

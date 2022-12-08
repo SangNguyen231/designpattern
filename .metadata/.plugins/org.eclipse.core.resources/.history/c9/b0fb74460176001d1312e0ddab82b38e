@@ -1,0 +1,5 @@
+package builder;
+
+public interface StudentBuilder {
+	StudentBuilder setId(String id);
+}

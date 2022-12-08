@@ -1,0 +1,12 @@
+package main;
+
+import component.Department;
+import leaf.FinanceDepartment;
+import leaf.SaleDepartment;
+
+public class MainMethod {
+	public static void main(String[] args) {
+		Department saleDepartment = new SaleDepartment(1, "Sale department");
+		Department financeDepartment = new FinanceDepartment(2, "Finance department")
+	}
+}

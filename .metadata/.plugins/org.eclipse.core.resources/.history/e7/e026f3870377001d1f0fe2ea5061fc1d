@@ -1,0 +1,19 @@
+package composite;
+
+import component.Department;
+
+public class SoftWartDepartment implements Department{
+
+	@Override
+	public void printDepartmentName() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

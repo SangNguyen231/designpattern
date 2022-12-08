@@ -1,0 +1,18 @@
+package carinterface;
+
+import banhxe.BanhXe;
+import banhxe.BanhXeNexus;
+import cuaxe.CuaXe;
+import cuaxe.CuaXeNexus;
+
+public class CarNexus implements Car{
+	@Override
+	public BanhXe createBanhXe() {
+		return new BanhXeNexus();
+	}
+
+	@Override
+	public CuaXe createCuaXe() {
+		return new CuaXeNexus();
+	}
+}

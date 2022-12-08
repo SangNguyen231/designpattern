@@ -1,0 +1,7 @@
+package factory;
+
+public class CarFactory {
+	void viewCar(String typeCar) {
+		
+	}
+}

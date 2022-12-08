@@ -1,0 +1,11 @@
+package context;
+
+import java.lang.Thread.State;
+
+public class Context {
+	private State state;
+	
+	public Context() {
+		state = null;
+	}
+}

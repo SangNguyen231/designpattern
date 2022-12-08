@@ -1,0 +1,14 @@
+package factory;
+
+import carinterface.Car;
+import nhanhang.Honda;
+
+public class CarFactory {
+	public void viewCar(String carType) {
+		Car car;
+		if(carType.equalsIgnoreCase("HONDA")) {
+			car = new Honda();
+			car.view();
+		}
+	}
+}

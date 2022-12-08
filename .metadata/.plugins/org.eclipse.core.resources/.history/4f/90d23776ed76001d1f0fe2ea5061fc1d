@@ -1,0 +1,5 @@
+package concretesubject;
+
+public class MessagePublisher {
+
+}

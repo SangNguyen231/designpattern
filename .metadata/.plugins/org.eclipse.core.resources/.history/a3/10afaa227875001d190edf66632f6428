@@ -1,0 +1,6 @@
+package factories;
+
+public interface CarFactory {
+	void viewCar();
+	void viewBanhXe();
+}

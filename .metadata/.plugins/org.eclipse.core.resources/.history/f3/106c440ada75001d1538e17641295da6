@@ -1,0 +1,18 @@
+package factory;
+
+import car.Car;
+import car.Honda;
+
+public class CarFactory {
+	void viewCar(String typeCar) {
+		Car car;
+		if(typeCar.equalsIgnoreCase("HONDA")) {
+			car = new Honda();
+			car.viewCar();
+		}else if(typeCar.equalsIgnoreCase("NEXUS")){
+			
+		}else if (typeCar.equalsIgnoreCase("TOYOTA")) {
+			
+		}
+	}
+}

@@ -1,0 +1,17 @@
+package factories;
+
+public class HondaFactory implements CarFactory{
+
+	@Override
+	public void viewCar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void viewBanhXe() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

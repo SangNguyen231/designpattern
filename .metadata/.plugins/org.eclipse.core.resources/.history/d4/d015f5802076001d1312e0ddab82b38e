@@ -1,0 +1,15 @@
+package context;
+
+import java.awt.Taskbar.State;
+
+public class Context {
+	private State state;
+	
+	public Context() {
+		state = null;
+	}
+
+	public State getState() {
+		return state;
+	}
+}

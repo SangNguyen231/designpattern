@@ -1,0 +1,13 @@
+package adapter;
+
+import target.VietnameseTarget;
+
+public class TranslatorAdapter implements VietnameseTarget{
+
+	@Override
+	public void send(String word) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

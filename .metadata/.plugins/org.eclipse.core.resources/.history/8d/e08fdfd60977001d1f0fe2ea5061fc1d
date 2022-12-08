@@ -1,0 +1,11 @@
+package main;
+
+import component.Coffee;
+import concreatecomponent.DefaultCoffee;
+
+public class MainMethod {
+	public static void main(String[] args) {
+		Coffee coffee = new DefaultCoffee();
+		System.out.println(coffee);
+	}
+}

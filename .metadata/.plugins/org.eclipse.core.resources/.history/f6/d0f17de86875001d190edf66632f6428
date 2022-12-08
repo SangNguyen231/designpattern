@@ -1,0 +1,12 @@
+package nhanhang;
+
+import carinterface.Car;
+
+public class Nexus implements Car{
+
+	@Override
+	public void view() {
+		System.out.println("Nexus car");
+	}
+
+}

@@ -1,0 +1,21 @@
+package product;
+
+import carinterface.Car;
+
+public class Toyota implements Car{
+
+	@Override
+	public void getName() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getModel() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+}

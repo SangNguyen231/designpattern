@@ -1,0 +1,30 @@
+package nhanhang;
+
+import carinterface.Car;
+
+public class Honda implements Car{
+
+	@Override
+	public void view() {
+		System.out.println("Honda View");
+	}
+
+	@Override
+	public void viewBanhXe() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void viewCuaXe() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void ViewLopXe() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

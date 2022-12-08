@@ -1,0 +1,57 @@
+package concretebuilder;
+
+import builder.StudentBuilder;
+import product.Student;
+
+public class StudentConcreteBuilder implements StudentBuilder{
+	
+	 private String id;
+	    private String firstName;
+	    private String lastName;
+	    private String dayOfBirth;
+	    private String currentClass;
+	    private String phone;
+	
+	@Override
+	public StudentBuilder setId(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public StudentBuilder setFirstName(String firstName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public StudentBuilder setLastName(String lastName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public StudentBuilder setDayOfBirth(String dayOfBirth) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public StudentBuilder setCurrentClass(String currentClass) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public StudentBuilder setPhone(String phone) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Student build() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

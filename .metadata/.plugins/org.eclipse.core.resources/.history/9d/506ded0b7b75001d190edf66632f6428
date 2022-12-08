@@ -1,0 +1,5 @@
+package carinterface;
+
+public class CarToyota implements Car{
+
+}

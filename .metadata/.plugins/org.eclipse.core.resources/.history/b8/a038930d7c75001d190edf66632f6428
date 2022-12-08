@@ -1,0 +1,21 @@
+package app;
+
+import product.BanhXeHonda;
+import product.BanhXeNexus;
+import product.BanhXeToyota;
+
+public class Client {
+	public void viewCar(String carType) {
+		Car car;
+		if(carType.equalsIgnoreCase("HONDA")) {
+			car = new BanhXeHonda();
+			car.view();
+		}else if(carType.equalsIgnoreCase("NEXUS")) {
+			car = new BanhXeNexus();
+			car.view();
+		}else if(carType.equalsIgnoreCase("TOYOTA")) {
+			car = new BanhXeToyota();
+			car.view();
+		}
+	}
+}

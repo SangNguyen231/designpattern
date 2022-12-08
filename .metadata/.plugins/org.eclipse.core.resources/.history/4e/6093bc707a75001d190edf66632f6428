@@ -1,0 +1,6 @@
+package carinterface;
+
+public interface Car {
+	BanhXe createBanhXe();
+	CuaXe createCuaXe();
+}

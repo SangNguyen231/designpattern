@@ -1,0 +1,20 @@
+package carinterface;
+
+import banhxe.BanhXe;
+import cuaxe.CuaXe;
+
+public class CarHonda implements Car{
+
+	@Override
+	public BanhXe createBanhXe() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CuaXe createCuaXe() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

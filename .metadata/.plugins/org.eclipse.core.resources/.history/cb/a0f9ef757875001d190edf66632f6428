@@ -1,0 +1,8 @@
+package carinterface;
+
+public interface Car {
+	void getName();
+	void getModel();
+	void viewCuaXe();
+	void ViewLopXe();
+}

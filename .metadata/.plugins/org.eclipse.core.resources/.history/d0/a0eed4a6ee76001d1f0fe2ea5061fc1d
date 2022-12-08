@@ -1,0 +1,7 @@
+package concretesubject;
+
+import observer.Observer;
+
+public class MessageSubscriberOne implements Observer{
+
+}

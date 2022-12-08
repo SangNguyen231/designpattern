@@ -1,0 +1,10 @@
+package main;
+
+import builder.StudentBuilder;
+import concretebuilder.StudentConcreteBuilder;
+
+public class MainMethod {
+	public static void main(String[] args) {
+		StudentBuilder builder = (StudentBuilder) new StudentConcreteBuilder().setFirstName("Sang").setLastName("Nguyen").build();
+	}
+}

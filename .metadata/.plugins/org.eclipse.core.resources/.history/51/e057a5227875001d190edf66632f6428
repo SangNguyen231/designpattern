@@ -1,0 +1,15 @@
+package factories;
+
+public class HondaFactory implements CarFactory{
+
+	@Override
+	public void viewCar() {
+		System.out.println("Honda Car");
+	}
+
+	@Override
+	public void viewBanhXe() {
+		System.out.println("Banh Xe Honda");
+	}
+
+}

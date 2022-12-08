@@ -1,0 +1,18 @@
+package decorator;
+import component.Coffee;
+
+public abstract class CoffeeDecorator implements Coffee{
+
+	private Coffee coffee;
+
+	public CoffeeDecorator(Coffee coffee) {
+		this.coffee = coffee;
+	}
+
+	@Override
+	public int getPrice() {
+		// TODO Auto-generated method stub
+		return coffee.getPrice();
+	}
+	
+}

@@ -1,0 +1,17 @@
+package context;
+
+import java.lang.Thread.State;
+
+import action.StopState;
+
+public class Context {
+	private State state;
+	
+	public Context() {
+		state = null;
+	}
+
+	public State getState() {
+		return state;
+	}
+}

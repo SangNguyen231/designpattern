@@ -1,0 +1,10 @@
+package main;
+
+public class Student {
+	private String id;
+    private String firstName;
+    private String lastName;
+    private String dayOfBirth;
+    private String currentClass;
+    private String phone;
+}

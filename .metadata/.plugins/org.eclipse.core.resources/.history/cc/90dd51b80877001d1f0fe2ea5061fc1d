@@ -1,0 +1,9 @@
+package decorator;
+
+import javax.lang.model.type.DeclaredType;
+
+import component.Coffee;
+
+public abstract class CoffeeDecorator implements Coffee{
+
+}

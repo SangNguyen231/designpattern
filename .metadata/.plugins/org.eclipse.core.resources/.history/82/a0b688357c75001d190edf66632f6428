@@ -1,0 +1,17 @@
+package app;
+
+import carinterface.Car;
+
+public class Client {
+	
+	public void viewCar(String carType) {
+		Car car;
+		if(carType.equalsIgnoreCase("HONDA")) {
+			
+		}else if(carType.equalsIgnoreCase("NEXUS")) {
+			
+		}else if(carType.equalsIgnoreCase("TOYOTA")) {
+			
+		}
+	}
+}
